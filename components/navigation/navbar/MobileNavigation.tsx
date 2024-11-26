@@ -6,6 +6,7 @@ import {
   Sheet,
   SheetClose,
   SheetContent,
+  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import ROUTES from "@/constants/routes";
@@ -28,7 +29,7 @@ const MobileNavigation = () => {
         side="left"
         className="background-light900_dark200 border-none"
       >
-        {/* <SheetTitle className="hidden">Navigation</SheetTitle> */}
+        <SheetTitle className="hidden">Navigation</SheetTitle>
         <Link href="/" className="flex items-center gap-1">
           <Image
             src="/images/site-logo.svg"
@@ -36,7 +37,8 @@ const MobileNavigation = () => {
             height={23}
             alt="Logo"
           />
-          <p className="h2-bold font-space-grotesk text-dark-100 dark:text-light-900 ">
+
+          <p className="h2-bold font-space-grotesk text-dark-100 dark:text-light-900">
             Dev<span className="text-primary-500">Flow</span>
           </p>
         </Link>
