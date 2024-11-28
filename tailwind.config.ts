@@ -64,6 +64,7 @@ const config: Config = {
     tailwindcssAnimate,
     tailwindTypography,
     require("tailwindcss-animate"),
+    require("@tailwindcss/typography"),
   ],
 };
 
